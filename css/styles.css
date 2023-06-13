@@ -1,0 +1,117 @@
+.go {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.stop {
+  color: red;
+}
+
+#look {
+  color: orange;
+}
+
+.span {
+  color: yellow;
+  background-color: black;
+}
+
+.divison {
+  color: pink;
+  background-color: black;
+  text-align: center;
+  line-height: 5;
+  letter-spacing: 20px;
+}
+.font-styles {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.para {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.box-model {
+  border: 1px solid red;
+  height: 50px;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+}
+
+h2 {
+  color: red;
+}
+
+h2 {
+  color: blue;
+}
+
+.specificity{
+  color: red;
+}
+
+h3{
+  color: blue !important;
+}
+
+#specificity{
+  color: green;
+}
+
+.inheritance{
+  color: orange;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+
+th, td {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 60%;
+}
+
+td{
+  text-align: center;
+  
+}
+
+.content1 {
+  border: 1px solid red;
+  position: sticky;
+  top: 50px;
+  left: 50px;
+}
+.content2 {
+  border: 1px solid blue;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 2000px;
+  border: 1px solid black;
+}
+
+.em-container{
+  font-size: 20px;
+  
+}
